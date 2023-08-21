@@ -1,0 +1,145 @@
+<!DOCtype html>
+<html>
+    <head>
+        <title>Cart</title>
+        <link rel="stylesheet" href="cart.css">
+    </head>
+    <body>
+        <!--main header -->
+        <div class="header">
+            <!-- the main header has three parts -->
+            <!--1. logo image-->
+            <div class="cart-logo-image">
+                <img src="images/amazon-logo.png" class="cart-amazon-logo">
+            </div>
+            <!--2. Main title -->
+            <div class="main-title">
+                <p class="main-title-p">Checkout(<span class="items">1 items</span>)</p>
+            </div>
+            <!--3.lock logo  -->
+            <div class="lock-logo">
+                <img src="images/checkout-lock-icon.png" class="logo-image">
+            </div>
+        </div>
+        <!-- end of the header -->
+        <!--Sub title -->
+        <div class="title">
+            <p class="title-review">Review your order</p>
+        </div>
+        <!-- body -->
+        <!-- body has two sub parts -->
+        <div class="body">
+            <!--a. left part of body -->
+            <div class="left">
+                <!-- left part of the body has two part -->
+                <!-- 1.header -->
+                <div class="left-header">
+                    <p class="review-header">Delivery date: Wednesday, August 30</p>
+                </div>
+                <!-- 2.body -->
+                <div class="cart-review">
+                    <!-- body has two parts -->
+                    <!-- 1.product details -->
+                    <div class="cart-product">
+                        <!-- product details has two parts -->
+                        <!--A. product image -->
+                        <div class="cart-product-image">
+                            <img src="images/athletic-cotton-socks-6-pairs.jpg">
+                        </div>
+                        <!--B.product specific details,price -->
+                        <div class="cart-product-price-container">
+                            <p class="cart-product-name">2 Slot Toaster - Black</p>
+                            <p class="cart-product-price">$18.99</p>
+                            <p class="cart-product-quantity">Quantity: 1<span class="edit">Update Delete</span></p>
+                        </div>
+                    </div>
+                     <!-- 2.shipping details -->
+                    <div class="shipping">
+                        <!-- shipping details has two part -->
+                        <!-- A.header -->
+                        <div class="shipping-header-container">
+                            <p class="shipping-header">Choose a delivery option</p>
+                        </div>
+                        <!-- B.body -->
+                        <!-- The body has three dates-->
+                        <!-- date 1 -->
+                        <div class="date-option">
+                            <!-- each date option has radio and shipping details -->
+                            <!-- date selector has two parts -->
+                            <!-- A.radio box -->
+                            <div class="shipping-selector">
+                                <input type="radio" name="date" class="cart-radio">
+                            </div>
+                            <!-- B.shipping date and charges -->
+                            <!-- first date -->
+                            <div class="shipping-charges">
+                                <p class="shipping-date-conformation">Wednesday,August 30</p>
+                                <p class="shipping-charge-conformation">Free Shipping</p>
+                            </div>
+                        </div>
+                        <!-- date 2 -->
+                        <div class="date-option">
+                            <div class="shipping-selector">
+                                <input type="radio" name="date" class="cart-radio">
+                            </div>
+                            <!-- second date -->
+                            <div class="shipping-charges">
+                                <p class="shipping-date-conformation">Thursday,August 24</p>
+                                <p class="shipping-charge-conformation">$4.99 - Shipping</p>
+                            </div>
+                        </div>
+                        <!-- date 3 -->
+                        <div class="date-option">
+                            <div class="shipping-selector">
+                                <input type="radio" name="date" class="cart-radio">
+                            </div>
+                             <!-- third date -->
+                             <div class="shipping-charges">
+                                <p class="shipping-date-conformation">Tuesday,August 22</p>
+                                <p class="shipping-charge-conformation">$9.99 - Shipping</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--b. right part of body -->
+            <div class="right">
+                <!-- right side of the body has two parts -->
+                <!-- 1.Header-->
+                <div class="summary-header">
+                    <p class="order">Order Summary</p>
+                </div>
+                <!-- 2.body -->
+                <div class="summary-body">
+                    <div class="bill">
+                        <p class="print">Items(1)</p>
+                        <p class="print">$18.99</p>
+                    </div>
+                    <div class="bill">
+                        <p class="print">Shipping & handling</p>
+                        <p class="print">$0.00</p>
+                    </div>
+                    <div class="bill">
+                        <P class="print">Total before tax</P>
+                        <P class="print">$18.99</P>
+                    </div>
+                    <div class="bill">
+                        <p class="print">Estimated tax(10%):</p>
+                        <p class="print">$1.90</p>
+                    </div>
+                    <div class="bill">
+                        <p class="total-bill">Order total:</p>
+                        <p class="total-bill">$20.89</p>
+                    </div>
+                    <div class="pay-method">
+                        <p>Use payPal</p>
+                        <input type="checkbox">
+                    </div>
+                    <div class="button-order-container">
+                        <button class="order-button">Place your order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
