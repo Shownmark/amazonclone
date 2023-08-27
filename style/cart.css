@@ -1,0 +1,109 @@
+body{
+     font-family:arial; 
+}
+img{
+    width:50px;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.cart-amazon-logo{
+    width:100px;
+}
+.main-title-p,.order,.total-bill{
+    font-size:20px;
+    font-weight:600;
+}
+.items{
+    color:green;
+}
+.logo-image{
+    width:20px;
+}
+.title{
+    margin-left:200px;
+    margin-top:75px;
+}
+.title-review{
+    font-weight:700;
+    font-size:25px;
+}
+.review-header{
+    color:green;
+    font-size:20px;
+    font-weight:700;
+}
+.body{
+    display:flex;
+    justify-content:space-between;
+    padding:0px 200px;
+}
+.right{
+    justify-content:space-between;
+    padding:10px;
+}
+.left{
+    flex:1;
+    padding:10px;
+    margin-right:20px;
+}
+.cart-review{
+    display:flex;
+}
+
+.cart-product{
+    display:flex;
+    align-items:top;
+    flex:1;
+}
+.review-cart-image{
+    width:100px;
+    margin-right:50px;
+}
+.shipping{
+    margin-right:150px;
+}
+.cart-product-name,.cart-product-price,.shipping-header{
+    font-weight:bold;
+}
+.cart-product-price{
+    color:red;
+}
+.shipping-date-conformation{
+    color:green;
+    font-weight:700;
+}
+.shipping-charge-conformation{
+    font-size:17px;
+    margin-top:-10px;
+}
+.edit{
+    color:rgb(56, 140, 167);
+}
+.date-option{
+    display:flex;
+    align-items:center;
+    margin-top:-15px;
+}
+.shipping-selector{
+    margin-right:10px;
+}
+.bill{
+    display:flex;
+    justify-content:space-between;
+}
+.total-bill{
+    color:rgb(143,32,3);
+}
+.pay-method{
+    display:flex;
+}
+.order-button{
+    background-color:rgb(255,216,20);
+    border:none;
+    width:330px;
+    height:45px;
+    border-radius:8px;
+}

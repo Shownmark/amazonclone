@@ -1,0 +1,34 @@
+.order-body{
+    position:absolute;
+    top:90px;
+    padding:0px 250px;
+}
+.order-placed-image{
+    width:100px;
+}
+.order-grid{
+    display:grid;
+    grid-template-columns: 150px 1fr 1fr;
+    column-gap:50px;
+    row-gap:50px;
+}
+.order-track-grid{
+    justify-content:center;
+}
+.order-headers{
+    font-weight: 700;
+    margin-bottom:0px;
+}
+.order-details{
+    margin-top:5px;
+}
+.order-grid{
+    padding:50px 20px;
+}
+.buy-button{
+    width:25px;
+}
+.buy-again-button{
+    display:flex;
+    align-items:center;
+}
